@@ -20,3 +20,10 @@ for i in range (1,11):
 print(szamok)
 
 print(szamok[2])
+print(szamok[9])
+# túlindexelés - IndexError: list index out of range
+# print(szamok[10])
+
+# utolsó elem megadása - hátulról az 1. elem
+print(szamok[-1])
+print(szamok[-4])
