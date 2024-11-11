@@ -19,6 +19,12 @@ def a():
 
 def b():
 
+    for i in range(3):
+        name = input("Adj meg egy keresztnevet! ")
+        if name == "":
+            break
+        nevek.append(name)
+    print(nevek)
 
-a()
+# a()
 b()        
