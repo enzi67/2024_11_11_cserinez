@@ -1,4 +1,4 @@
-nyelvek = ['Python', 'C', 'C++', 'Java']
+nyelvek = ['Python', 'C', 'C++', 'Java', 'Python']
 nyelvek2 = sorted(nyelvek)
 
 # sorbarendezi a listát
@@ -8,6 +8,7 @@ print(nyelvek)
 # fordított sorrendbe rendezi a listát
 nyelvek.reverse()
 print(nyelvek)
+
 
 
 # az adott elem első előfordulásának indexe
