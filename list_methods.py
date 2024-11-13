@@ -13,11 +13,16 @@ print(nyelvek)
 
 # az adott elem első előfordulásának indexe
 print(nyelvek.index('C'))
+print(nyelvek.index('C++'))
 
 # az adott elem hányszor fordul elő
 print(nyelvek.count('Python'))
+print(nyelvek.count('Py'))
 
 # NEM listametódus, de így lehet eldönteni, hogy egy elemet tartalmaz-e a lista
 print('C++' in nyelvek)
 print('C+++' in nyelvek)
-  
+
+
+nev = "mama"
+print(nev.index("m"))
