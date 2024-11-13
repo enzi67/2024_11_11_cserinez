@@ -26,3 +26,6 @@ print('C+++' in nyelvek)
 
 nev = "mama"
 print(nev.index("m"))
+
+print(type(nyelvek))
+print(type(nev))
