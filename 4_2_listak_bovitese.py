@@ -14,3 +14,5 @@ print(nyelvek)
 
 # adott indexű helyre beszúrja a megadott elemet
 nyelvek.insert(1, 'Go')     
+print(nyelvek)
+print(len(nyelvek))
