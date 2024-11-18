@@ -4,9 +4,11 @@ hogy a megadott szín már szerepel-e az adott listában. A vizsgálat eredmény
 és írja ki egymás mellé vesszővel elválasztva a lista által tartalmazott színeket!"""
 
 colours = ['piros', 'narancs', 'citrom', 'zöld', 'kék', 'lila', 'magenta', 'rózsaszín', 'türkiz', 'fekete', 'fehér', 'szürke']
-input("Adj meg egy színt! ")
+szin = input("Adj meg egy színt! ")
 
-
-
+if szin in colours:
+    print(f"A(z) {szin} szín már szerepel a listában.")
+else:
+    print(f"A(z) {szin} szín nem szerepel a listában.")
 
 print(f"A lista tartalmazza a {colours} színeket.")
