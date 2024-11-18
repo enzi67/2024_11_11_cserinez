@@ -1,4 +1,4 @@
-nyelvek = ['Python', 'C', 'C++', 'Java', 'Python']
+nyelvek = ['Python', 'C', 'C++', 'Java', 'Python', 'HTML', 'CSS', 'JavaScript', 'gogo']
 
 # eltávolítja a legutolsó elemet, és azzal tér vissza
 # itt például a törölt értéket a 'torolt_nyelv' fogja tartalmazni
