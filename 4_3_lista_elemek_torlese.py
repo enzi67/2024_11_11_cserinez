@@ -10,12 +10,16 @@ print(nyelvek)
 
 # eltávolítja a megadott indexű elemet,  és azzal tér vissza
 nyelvek.pop(1)
+print(nyelvek)
 
 # eltávolítja a megadott indexű elemet
 del nyelvek[1]
+print(nyelvek)
 
 # eltávolítja a megadott elemet az elsőként megtalált pozícióból
 nyelvek.remove('Python')
+print(nyelvek)
 
 # törli a listát
 nyelvek.clear()
+print(nyelvek)
