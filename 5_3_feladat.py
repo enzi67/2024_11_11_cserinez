@@ -12,7 +12,7 @@ Minden egyes adatbekérés után írja ki a már rögzített betűket ábécé s
 betuk = []
 
 while True:
-    input_betu = input("Kérem adjon meg egy betűt (ENTER a kilépéshez): ")
+    input_betu = input("Adj meg egy betűt (ENTER a kilépéshez): ")
 
     if input_betu == "":
         break
@@ -23,10 +23,10 @@ while True:
         if kis_nagy_betu not in [betu.lower() for betu in betuk]:
             betuk.append(input_betu)
             betuk_sorted = sorted(betuk, key=lambda x: (x.lower(), x))
-            print("Rögzített betűk ábécé sorrendben:", ", ".join(betuk_sorted))
+            print("Rögzített betűk sorrendben:", ", ".join(betuk_sorted))
         else:
-            print("Ezt a betűt már rögzítettem.")
+            print("Ezt a betűt már írtad.")
     else:
-        print("Kérem, csak egy betűt adjon meg!")
+        print("Kérlelk, csak egy betűt adj meg!")
 
-print("A végleges rögzített betűk:", ", ".join(betuk))
+print("A véglegesen rögzített betűk:", ", ".join(betuk))
